@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Allison';
+    src: local('Allison Regular'), local('Allison-Regular'),
+        url('Allison-Regular.woff2') format('woff2'),
+        url('Allison-Regular.woff') format('woff'),
+        url('Allison-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
