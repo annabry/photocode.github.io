@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Дитячі фотосесії</title>
+    <link href="../css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- overlay -->
+    <div class="overlay" id="overlay">
+      <p class="p_overlay">Телефонуйте за номером:</p>
+      <div class="nomer_overlay">
+        <span>+38 097 140 1703</span>
+      </div>
+      <span class="close-overlay">×</span>
+    </div>
+
+    <!-- header -->
+    <header class="header">
+      <div class="container">
+        <!-- burger-menu -->
+        <nav class="dropdown">
+          <div class="burger">
+            <button class="dropbtn" type="button"><span></span></button>
+            <div class="dropdown-content">
+              <ul class="menu">
+                <li><a href="../main.html">ГОЛОВНА</a></li>
+                <li><a href="locations.html">ЛОКАЦІЇ</a></li>
+                <li><a href="poslugy.html">ПОСЛУГИ</a></li>
+                <li><a  href="pravyla.html">ПРАВИЛА</a></li>
+                <li><a href="contacty.html">КОНТАКТИ</a></li>
+                <li><a href="portfolio.html"><span class="active">ПОРТФОЛІО</span></a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <!-- logo -->
+        <div class="logo logo_header">
+          <span class="logo-1">PHOTO</span>
+          <span class="logo-2">Code</span>
+        </div>
+        <!-- menu -->
+        <nav class="nav">
+          <ul class="menu">
+              <li><a href="../main.html">ГОЛОВНА</a></li>
+              <li><a href="locations.html">ЛОКАЦІЇ</a></li>
+              <li><a href="poslugy.html">ПОСЛУГИ</a></li>
+              <li><a  href="pravyla.html">ПРАВИЛА</a></li>
+              <li><a href="contacty.html">КОНТАКТИ</a></li>
+              <li><a href="portfolio.html"><span class="active">ПОРТФОЛІО</span></a></li>
+          </ul>
+        </nav>
+      <!-- button header -->
+      <button onclick="openOverlay()" class="button-header">ЗАТЕЛЕФОНУВАТИ</button>
+      </div>
+    </header>
+
+    <!-- title of page -->
+    <div class="titlepage">
+      <div class="container">
+        <div class="title1 typingEffect">Дитячі</div>
+        <div class="title2">Дитячі фотосесії</div>
+      </div>
+    </div>
+
+    <!-- menu categoriy -->
+    <div class="container">
+    <div class="menu_categoriy">
+      <span class="focus-menu"><a href="dity.html">Дитячі</a></span>
+      <a href="simeyni.html">Сімейні</a>
+      <a href="osobysti.html">Особисті</a>
+      <a href="vagitnist.html">Вагітність</a>
+      <a href="love story.html">LOVE STORY</a>
+    </div>
+    </div>
+
+    <div class="container_gallery">
+        <!-- scroll -->
+        <div class="scroll">
+        <div class="scroll-arrow up-arrow0">
+            <button class="scrollToTopBtn"><img class="intop_gallery" src="../images/intop.png" alt=""></button> 
+        </div>
+        <div class="scroll-arrow up-arrow2">
+            <button class="scrollToTopBtn"><img class="intop_gallery" src="../images/intop.png" alt=""></button> 
+        </div>  
+        </div>
+        <!-- gallery -->
+        <div class="container">
+          <div class="column_gallery1">
+            
+            <div class="container_gallery_photo"><img class="gallery-photo" onclick="openModal()" src="../images/IMG_0173.JPG" alt=""></div>
+            <!-- Модальне вікно з великим зображенням -->
+            <div id="modal" onclick="closeModal()">
+            <span id="close">&times;</span>
+            <img id="modal-img" src="" alt="modal image">
+            </div>
+
+            <div class="container_gallery_photo"><img class="gallery-photo" onclick="openModal()" src="../images/IMG_0167.JPG" alt=""></div>
+            <div class="container_gallery_photo"><img class="gallery-photo" onclick="openModal()" src="../images/IMG_0134.JPG" alt=""></div>
+            <div class="container_gallery_photo"><img class="gallery-photo" onclick="openModal()" src="../images/IMG_0155.JPG" alt=""></div>
+            <div class="container_gallery_photo add_photo" ><img class="gallery-photo" onclick="openModal()" src="../images/IMG_0130.JPG" alt=""></div>
+            <div class="container_gallery_photo add_photo2"><img class="gallery-photo" onclick="openModal()" src="../images/IMG_0156.JPG" alt=""></div>
+            <div class="container_gallery_photo add_photo2 bottom0"><img class="gallery-photo" onclick="openModal()" src="../images/IMG_0175.JPG" alt=""></div>
+        </div>
+
+        <div class="column_gallery">
+            <div class="container_gallery_photo2"><img class="gallery-photo" onclick="openModal()" src="../images/IMG_0127.JPG" alt=""></div>
+            <div class="container_gallery_photo"><img class="gallery-photo" onclick="openModal()" src="../images/IMG_9931.JPG" alt=""></div>
+            <div class="container_gallery_photo"><img class="gallery-photo" onclick="openModal()" src="../images/IMG_0126.JPG" alt=""></div>
+            <div class="container_gallery_photo"><img class="gallery-photo" onclick="openModal()" src="../images/IMG_0142.JPG" alt=""></div>
+            <div class="container_gallery_photo add_photo"><img class="gallery-photo" onclick="openModal()" src="../images/IMG_9967.JPG" alt=""></div>
+            <div class="container_gallery_photo add_photo2"><img class="gallery-photo" onclick="openModal()" src="../images/IMG_0176.JPG" alt=""></div>
+            <div class="container_gallery_photo add_photo2 bottom02"><img class="gallery-photo" onclick="openModal()" src="../images/IMG_9971.JPG" alt=""></div>
+        </div>
+        <div class="column_gallery1 column_invisible_c2">
+            <div class="container_gallery_photo"><img class="gallery-photo" onclick="openModal()" src="../images/IMG_0156.JPG" alt=""></div>
+            <div class="container_gallery_photo"><img class="gallery-photo" onclick="openModal()" src="../images/IMG_0175.JPG" alt=""></div>
+            <div class="container_gallery_photo"><img class="gallery-photo" onclick="openModal()" src="../images/IMG_9971.JPG" alt=""></div>
+            <div class="container_gallery_photo"><img class="gallery-photo" onclick="openModal()" src="../images/IMG_0176.JPG" alt=""></div>
+            <div class="container_gallery_photo add_photo"><img class="gallery-photo" onclick="openModal()" src="../images/IMG_0168.JPG" alt=""></div>
+        </div>
+        <div class="column_gallery column_invisible_c">
+            <div class="container_gallery_photo" ><img class="gallery-photo" onclick="openModal()" src="../images/IMG_0130.JPG" alt=""></div>
+            <div class="container_gallery_photo"><img class="gallery-photo" onclick="openModal()" src="../images/IMG_9967.JPG" alt=""></div>
+            <div class="container_gallery_photo"><img class="gallery-photo" onclick="openModal()" src="../images/IMG_0168.JPG" alt=""></div>
+        </div>
+        </div>
+        
+        <!-- scroll -->
+        <div class="scroll">
+        <div class="scroll-arrow up-arrow1">
+            <button class="scrollToTopBtn"><img class="intop_gallery" src="../images/intop.png" alt=""></button> 
+        </div>
+        <div class="scroll-arrow up-arrow3 arrow-add">
+            <button class="scrollToTopBtn"><img class="intop_gallery" src="../images/intop.png" alt=""></button> 
+        </div> 
+        </div>
+    </div>
+
+    <div class="container bottom_gallery">
+        <div class="perehid-gallery-right">
+          <button class="perehid perehid-gallery">
+            <a href="portfolio.html"><p class="p-perehid p-perehid3">портфоліо</p></a>
+            <img class="arrow1" src="../images/Arrow 1.svg" alt="">
+            <img class="focus-perehid focus-perehid-gallery" src="../images/focus-perehid.svg" alt="">
+        </button>
+        </div>
+        
+        <div class="button-act-gallery"><button onclick="openOverlay()" class="button-act">ЗАТЕЛЕФОНУВАТИ</button></div>
+        
+        <button class="perehid2 perehid2_gallery">
+            <img class="focus-perehid2 focus-perehid focus-perehid-gallery2" src="../images/focus-perehid.svg" alt="">
+            <img class="arrow1" src="../images/Arrow2.svg" alt="">
+            <a href="portfolio.html"><p class="p-perehid p-perehid2">портфоліо</p></a>
+        </button>
+    </div>
+
+     <!-- footer -->
+<footer class="footer_main">
+  <div class="container">
+
+    <div class="topfooter">
+      <div class="section-top-footer">
+        <!-- logo -->
+      <div class="logo">
+        <span class="logo-1">PHOTO</span>
+        <span class="logo-2">Code</span>
+      </div>
+      </div>
+      <div class="section-top-footer">
+        <div class="center-horisontal">
+          <!-- button footer -->
+      <button onclick="openOverlay()" class="button-footer">ЗАТЕЛЕФОНУВАТИ</button>
+        </div>
+      </div>
+      <div class="section-top-footer">
+        <div class="right">
+          <!-- social -->
+          <div class="social">
+            <a href="https://web.telegram.org/" target="_blank" class="social-icon">
+              <img src="../images/telegram-logo 2.png"/></a>
+            <a href="https://www.facebook.com/photocodenovovolynsjk/" target="_blank" class="social-icon"> 
+              <img src="../images/facebook 2.png"/></a>
+            <a href="https://www.instagram.com/photo_code_novovolynsjk/" target="_blank" >
+              <img src="../images/instagram 2.png"/></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="bottomfooter">
+      <div class="leftside">
+        <p class="pl">Графік роботи</p>
+        <p class="pl pl2">ПН-НД 10:00-20:00</p>
+      </div>
+      <div class="adressa">
+        <p class="pl">Нововолинськ </p>
+        <p class="pl pl2"> вул. Січових Стрільців,1</p>
+      </div>
+      <div class="telephon">
+      <p class="pl">Телефон:</p>
+      <p class="pl pl2">+38 0971401703</p>
+      </div>
+    </div>
+    <div class="copyright">
+      <p> © Copyright |photocode| - 2023</p>
+    </div>
+
+  </div>
+</footer>
+    
+
+    <script src="../js/overlay.js"></script>
+    <script src="../js/scroll.js"></script>
+    <script src="../js/typing.js"></script>
+    <script src="../js/modal.js"></script>
+  </body>
+</html>
