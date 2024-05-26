@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Alegreya Sans SC';
+    src: local('Alegreya Sans SC Light'), local('Alegreya-Sans-SC-Light'),
+        url('AlegreyaSansSC-Light.woff2') format('woff2'),
+        url('AlegreyaSansSC-Light.woff') format('woff'),
+        url('AlegreyaSansSC-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+  }
